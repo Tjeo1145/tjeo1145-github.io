@@ -15,7 +15,7 @@ Tristan Jeo
 
     header {
         text-align: center;
-        font-family:'Times New Roman', Times, serif
+        font-family:'Times New Roman', Times, serif;
         padding-top: 1rem; 
         padding-bottom:1rem;
         max-width: 400px;
@@ -76,10 +76,15 @@ Tristan Jeo
         border-radius: 8px;
         font-size: 1.2rem;
         text-wrap: wrap;
+        transition: transform 0.2s ease 
     }
 
     .box {
         flex-shrink: 1;
+    }
+
+    .block:hover {
+        transform: translateY(-5px);
     }
 
     h3 {
